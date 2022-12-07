@@ -17,16 +17,16 @@ body {
   background-color: #fcfcfc;
 }
 
-body,
+/* body,
 input {
-  /* color: hsl(0, 0%, 10%); */
   color: #fcfcfc;
   font: 1em/1.5 sans-serif;
   background-color: #fcfcfc;
-}
+} */
 
 input {
-  border: 2px solid #fd5103;
+  border: 0.6px solid #fd5103;
+  color: #fcfcfc;
 }
 
 form {
@@ -76,7 +76,8 @@ form {
 }
 
 .curtain {
-  background: hsl(0, 0%, 100%);
+  /* background: hsl(0, 0%, 100%); */
+  background: black;
   mix-blend-mode: difference;
   pointer-events: none;
   width: 100%;
@@ -99,10 +100,10 @@ form {
 
 .toggle {
   background: currentColor;
-  border-radius: 0.75em;
+  border-radius: 50px;
   cursor: pointer;
-  width: 3em;
-  height: 1.5em;
+  width: 40px;
+  height: 20px;
   -webkit-appearance: none;
   appearance: none;
   -webkit-tap-highlight-color: transparent;
@@ -112,12 +113,12 @@ form {
 .toggle:after {
   border-radius: 50%;
   content: "";
-  color: red;
   display: block;
-  top: 0.25em;
-  left: 0.25em;
-  width: 1em;
-  height: 1em;
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  left: 1px;
+  top: 1px;
 }
 
 .toggle:before,
