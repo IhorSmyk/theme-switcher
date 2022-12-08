@@ -61,12 +61,11 @@
 
 .label-toggle,
 .label-toggle {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 24px;
 }
-
 
 .toggle {
   border-radius: 50px;
