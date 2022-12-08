@@ -27,6 +27,10 @@
 .label-dark-toggle-dark-theme {
   color: #fd5103;
 }
+
+.js-dark-theme{
+  background-color: #202025;
+}
 /*----------------------------*/
 
 .toggle {
