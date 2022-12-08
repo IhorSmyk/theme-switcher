@@ -98,11 +98,11 @@
 }
 
 .toggle:before {
-  transform: translateX(-1.5em);
+  transform: translateX(-20px);
 }
 
 .toggle:checked:before {
-  transform: translateX(1.5em);
+  transform: translateX(20px);
 }
 
 .toggle:checked:after {
