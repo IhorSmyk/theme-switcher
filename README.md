@@ -1,1 +1,1 @@
-# theme-switcher for command project
+# theme-switcher for the command project
